@@ -1,27 +1,40 @@
-# Homework1 
+def genre(x):
+    output = x
+    return output
 
-#detais
-Band = "The Killers"
-Genre = "Indie Rock"
-Discs = 5
+y = "indie"
+z = genre(y)
 
-Print (Band)
-Print (Genre)
-Print (Discs)
+print(z)
+#indie
 
-Band = "Coldplay"
+def year(y):
+    output =(5 * y)
+    return output
 
-Print (Band)
-#shoud be Coldplay
+yearRelease = 2000
+yearRelease = year(yearRelease)
+print (yearRelease)
+#10000
+yearRelease2 =year(yearRelease)
+print (yearRelease2)
+#5000
 
-Discs = Discs + 1
-Print (Discs)
-#should be 6
+def band(name):
+    output = name
+    return output
+bandName = "the killers"
 
-Discs *=2
-Print (Discs)
-#should be 12
+bandName = band(bandName)
 
-Discs /=3
-Print (Discs)
-#shoud be 4
+print (bandName)
+# the Killers
+
+def addMul (x,y):
+    output = x + 20
+    output *= y + 10
+    return output
+
+calculo = addMul (3,4)
+print (calculo)
+#322
