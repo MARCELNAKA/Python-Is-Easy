@@ -1,20 +1,22 @@
-baskTeam = "celtics"
-soccerTeam = "corinthians"
+#lesson
+baskTeam = "phila"
+soccerTeam = "palmeiras"
 baseTeam = "yankees"
+solution = True
 
-if baskTeam = "celtics" and soccerTeam = "corinthians"
-    return = True
+if baskTeam == "celtics" and soccerTeam == "corinthians":
+    solution = True
 
-elif baskTeam = "celtics" and baseTeam = "yankees"
-    return = True
+elif baskTeam == "celtics" and baseTeam == "yankees":
+    solution = True
 
-elif soccerTeam = "corinthians" and baseTeam = "yankees"
-    return = True
+elif soccerTeam == "corinthians" and baseTeam == "yankees":
+    solution = True
 
-else
-    return = False
+else:
+    solution = False
 
-print (return)
+print (solution)
 
 #extra
 
@@ -26,7 +28,7 @@ a = int(a)
 
 if a==5:
     output = True
-
+    
 else:
     output = False
 
