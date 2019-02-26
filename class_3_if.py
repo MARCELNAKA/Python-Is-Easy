@@ -1,35 +1,21 @@
-#lesson
-baskTeam = "phila"
-soccerTeam = "palmeiras"
-baseTeam = "yankees"
-solution = True
-
-if baskTeam == "celtics" and soccerTeam == "corinthians":
-    solution = True
-
-elif baskTeam == "celtics" and baseTeam == "yankees":
-    solution = True
-
-elif soccerTeam == "corinthians" and baseTeam == "yankees":
-    solution = True
-
-else:
-    solution = False
-
-print (solution)
-
-#extra
+#homework
 
 a = "5"
-output = True
-a = int(a)
+b = 6
+c = 9
 
-#print (a)
+x = int(a)
+y = int(b)
+z = int(c)
 
-if a==5:
-    output = True
-    
-else:
-    output = False
+result= False
 
-print (output)
+def check(x,y,z):
+    if x==y and x==z:
+        result = True
+    elif x==y and y==z:
+        result = True
+    else:
+        result = False
+        
+print (result)
